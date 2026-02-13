@@ -33,6 +33,10 @@ import Palindrom_checker from "./assets/Palindrom_checker.png";
 import Roman_To_Arabic_Number_Converter from "./assets/Roman_To_Arabic_Number_Converter.png";
 import Wheel_by_html_and_css from "./assets/Wheel_by_html_and_css.png";
 
+// Placeholder images for new projects
+const InventorySystem = "https://via.placeholder.com/400x250?text=Inventory+System";
+const RealTimeBingoGame = "https://via.placeholder.com/400x250?text=Real-Time+Bingo+Game";
+
 // 🧾 Data
 const certifications = [cert_1, cert_2, cert_3, cert_4];
 
@@ -65,6 +69,20 @@ const fullstackProjects = [
     title: "Modern Banking App",
     description: "Sleek and modern banking dashboard interface – Coming Soon",
     image: Bank,
+  },
+  {
+    title: "Inventory System",
+    description: "Fullstack inventory management system using MERN stack and JWT authentication.",
+    image: InventorySystem,
+    link: "https://stockmate-2-inventory-system.onrender.com",
+    github: "https://github.com/Eyueal191/InventorySystem",
+  },
+  {
+    title: "Real-Time Bingo Game",
+    description: "Interactive real-time bingo game with Node.js, Socket.IO, and React frontend.",
+    image: RealTimeBingoGame,
+    link: "https://bingoarenagame-gapk.onrender.com",
+    github: "https://github.com/Eyueal191/RealTimeBingoGame",
   },
 ];
 
